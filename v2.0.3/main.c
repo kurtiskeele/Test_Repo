@@ -27,7 +27,7 @@ int main(void)
   initGpio();
 	initI2C();
 	wake();
-						
+//test change for git	
 	while(1)
 	{		
 		if(cycle1_complete)
