@@ -1,0 +1,35 @@
+Dependencies for Project 'mudmax_tx', Target 'Target 1': (DO NOT MODIFY !)
+F (.\ADuC706x.s)(0x559DBBBC)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\ADI--pd "__UVISION_VERSION SETA 524"--list .\listings\aduc706x.lst --xref -o .\objects\aduc706x.o --depend .\objects\aduc706x.d)
+F (.\main.c)(0x5AF360EE)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\ADI-D__UVISION_VERSION="524"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\Keil_v5\ARM\INC\ADI\aduc7060.h)(0x559DADCC)
+I (aduc7060_helpers.h)(0x5AF11460)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C5634)
+I (interrupt_handlers.h)(0x5AF350B2)
+I (config.h)(0x5AF0DE6A)
+F (.\config.c)(0x5AF0DE5A)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\ADI-D__UVISION_VERSION="524"-o .\objects\config.o --omf_browse .\objects\config.crf --depend .\objects\config.d)
+I (aduc7060_helpers.h)(0x5AF11460)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C5634)
+I (config.h)(0x5AF0DE6A)
+F (.\config.h)(0x5AF0DE6A)()
+F (.\interrupt_handlers.c)(0x5BFDB8BF)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\ADI-D__UVISION_VERSION="524"-o .\objects\interrupt_handlers.o --omf_browse .\objects\interrupt_handlers.crf --depend .\objects\interrupt_handlers.d)
+I (interrupt_handlers.h)(0x5AF350B2)
+I (aduc7060_helpers.h)(0x5AF11460)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C5634)
+I (adc.h)(0x5BFDB8BF)
+I (D:\Keil_v5\ARM\INC\ADI\aduc7060.h)(0x559DADCC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588C5634)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x588C5634)
+F (.\interrupt_handlers.h)(0x5AF350B2)()
+F (.\aduc7060_helpers.c)(0x5BFDB8BF)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\ADI-D__UVISION_VERSION="524"-o .\objects\aduc7060_helpers.o --omf_browse .\objects\aduc7060_helpers.crf --depend .\objects\aduc7060_helpers.d)
+I (aduc7060_helpers.h)(0x5AF11460)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C5634)
+I (D:\Keil_v5\ARM\INC\ADI\aduc7060.h)(0x559DADCC)
+I (config.h)(0x5AF0DE6A)
+F (.\irq_arm.c)(0x57B498FA)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\ADI-D__UVISION_VERSION="524"-o .\objects\irq_arm.o --omf_browse .\objects\irq_arm.crf --depend .\objects\irq_arm.d)
+F (.\aduc7060_helpers.h)(0x5AF11460)()
+F (.\adc.h)(0x5BFDB8BF)()
+F (.\adc.c)(0x5AF36704)(--c99 -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-ID:\Keil_v5\ARM\RV31\INC-ID:\Keil_v5\ARM\CMSIS\Include-ID:\Keil_v5\ARM\INC\ADI-D__UVISION_VERSION="524"-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (adc.h)(0x5BFDB8BF)
+I (D:\Keil_v5\ARM\INC\ADI\aduc7060.h)(0x559DADCC)
+I (aduc7060_helpers.h)(0x5AF11460)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C5634)

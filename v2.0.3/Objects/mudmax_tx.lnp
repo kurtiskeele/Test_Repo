@@ -1,0 +1,12 @@
+--cpu ARM7TDMI
+".\objects\aduc706x.o"
+".\objects\main.o"
+".\objects\config.o"
+".\objects\interrupt_handlers.o"
+".\objects\aduc7060_helpers.o"
+".\objects\irq_arm.o"
+".\objects\adc.o"
+--strict --scatter ".\Objects\mudmax_tx.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\mudmax_tx.map" -o .\Objects\mudmax_tx.axf
